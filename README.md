@@ -1,5 +1,10 @@
 # Library Management System (BIWA2110 Lab Test)
 
+## Login details
+After running `npm run seed`, log in with:
+- Membership ID: **ADMIN001**
+- Password: **admin123**
+
 A book-stock and borrowing app.
 
 - **frontend/** - React (Vite), React Router, hooks, controlled forms, Fetch API
@@ -14,7 +19,7 @@ A book-stock and borrowing app.
 ### 2. Backend
 ```bash
 cd backend
-cp .env.example .env     # set DB_PASSWORD to your PostgreSQL password
+cp .env.example .env     # set DB_PASSWORD to PostgreSQL password
 npm install
 npm run seed             # creates admin: ADMIN001 / admin123
 npm start                # http://localhost:5000
